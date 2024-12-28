@@ -199,3 +199,108 @@ input:focus,textarea:focus {
     opacity: 1;
     cursor: pointer;
 }
+
+
+
+
+/* Media Query */
+
+
+@media only screen and (max-width: 500px) {
+  h1{
+    font-size: 35px !important;
+    line-height: normal !important;
+  }
+
+  nav{
+    margin-top: 20px !important;
+  }
+
+  .res-logo{
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .res-navbar{
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .hero-section{
+    margin: 25px 0 30px 0 !important;
+  }
+
+  .hero-section h1{
+    margin-top: 10px;
+  }
+
+  .hero-section p{
+    margin: 25px 0;
+  }
+
+  .res-hero-section{
+    flex-direction: column-reverse;
+  }
+
+  .res-hero-right{
+     display: flex !important;
+     justify-content: center !important;
+  }
+
+  .res-hero-right img{
+    position: static !important;
+    
+  }
+
+  .res-hero-bg{
+    display: none;
+  }
+
+  .res-hero-left{
+   
+
+  }
+
+  .hero-name::before{
+    content: '';
+    position: absolute;
+    top: 41px;
+    left: 0;
+    z-index: -1;
+    height: 6px;
+    background-color: var(--green) ;
+    width: 100%;
+  }
+
+  .skill-section{
+    margin: 20px 0 !important;
+  }
+
+  .skill{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  .res-project-header{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 30px !important;
+  
+  }
+
+  .res-project-heading, .res-project-btn{
+    margin-bottom: 0px !important;
+  }
+
+  .project-section{
+    margin-bottom: 20px !important;
+  }
+
+  .overlay{
+    height: 74% !important;
+  }
+
+}
